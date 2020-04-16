@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+.interior {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.div1 {
+    background-color: red;
+    top: 25px;
+    left: 350px;
+}
+
+.div1::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(255,0,0,.66);
+    height: 100px;
+    width: 100px;
+    right: 125px;
+}
+
+.div1::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(255,0,0,.33);
+    height: 100px;
+    width: 100px;
+    right: 250px;
+}
+
+.div2 {
+    background-color: orange;
+    top: 150px;
+    left: 350px;
+}
+
+.div2::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(255, 165, 0, .66);
+    height: 100px;
+    width: 100px;
+    right: 125px;
+}
+
+.div2::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(255, 165, 0, .33);
+    height: 100px;
+    width: 100px;
+    right: 250px;
+}
+
+.div3 {
+    background-color: yellow;
+    top: 275px;
+    left: 350px;
+}
+
+.div3::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(255, 255, 0, .66);
+    height: 100px;
+    width: 100px;
+    right: 125px;
+}
+
+.div3::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(255, 255, 0, .33);
+    height: 100px;
+    width: 100px;
+    right: 250px;
+}
+
+.div4 {
+    background-color: blue;
+    top: 400px;
+    left: 350px;
+}
+
+.div4::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 255, .66);
+    height: 100px;
+    width: 100px;
+    right: 125px;
+}
+
+.div4::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 255, .3);
+    height: 100px;
+    width: 100px;
+    right: 250px;
+}
+
+.div5 {
+    background-color: pink;
+    top: 525px;
+    left: 350px;
+}
+
+.div5::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(255, 192, 203, .66);
+    height: 100px;
+    width: 100px;
+    right: 125px;
+}
+
+.div5::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(255, 192, 203, .33);
+    height: 100px;
+    width: 100px;
+    right: 250px;
+}

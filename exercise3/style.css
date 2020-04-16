@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.interior  {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.interior.div1 {
+    top: 0px;
+    left: 0px;
+}
+
+.interior.div2 {
+    top: 0px;
+    left: 120px;
+}
+
+.interior.div3 {
+    top: 120px;
+    left: 0px;
+}
+
+.interior.div4 {
+    top: 120px;
+    left: 120px;
+}
+
+.interior.div5 {
+    background-color: red;
+    top: 60px;
+    left: 60px;
+    transform: rotate(45deg);
+}
+
+.interior.div5::before {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    top: 39px;
+    left: 39px;
+    border-radius: 50%;
+    content: "\2605";
+    transform: rotate(-45deg);
+    font-size: 1.1em;
+    text-align: center;
+    background-color: white;
+}

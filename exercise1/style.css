@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 250px;
+    height: 250px;
+    margin: 500px auto;
+}
+
+.interior  {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.interior.div1 {
+    top: 0px;
+    left: 0px;
+}
+
+.interior.div2 {
+    top: -100px;
+    left: 120px;
+}
+
+.interior.div3 {
+    top: -80px;
+    left: 0px;
+}
+
+.interior.div4 {
+    top: -180px;
+    left: 120px;
+}
+
+.interior.div5 {
+    background-color: red;
+    top: -340px;
+    left: 60px;
+}
